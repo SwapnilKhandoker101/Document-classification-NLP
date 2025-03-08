@@ -1,0 +1,36 @@
+# Ignore virtual environment
+venv/
+.env
+
+#ingoring model file:
+
+
+
+# Ignore Jupyter Notebook checkpoints
+notebook/.ipynb_checkpoints
+
+# Ignore dataset files (optional, if data should not be versioned)
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment configuration
+requirements.txt
+
+notebook/best_models.pkl
